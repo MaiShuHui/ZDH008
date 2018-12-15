@@ -21,3 +21,6 @@ class TestLogin():
         self.login.page_number(number)
         self.login.page_password(password)
         self.login.page_enter()
+        
+    def test_01(self):
+        print("01被执行")
